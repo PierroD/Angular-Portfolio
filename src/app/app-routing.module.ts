@@ -5,6 +5,7 @@ import { componentFactoryName } from "@angular/compiler";
 import { ProjectsComponent } from "./pages/projects/projects.component";
 import { HomeComponent } from "./pages/home/home.component";
 import { StagetheaComponent } from "./pages/stagethea/stagethea.component";
+import { VeillesComponent } from "./pages/veilles/veilles.component";
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: "stage/Thea",
     component: StagetheaComponent
+  },
+  {
+    path: "veille",
+    component: VeillesComponent
   }
 ];
 

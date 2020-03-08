@@ -17,9 +17,10 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { HomeComponent } from './pages/home/home.component';
 import { StagetheaComponent } from './pages/stagethea/stagethea.component';
+import { VeillesComponent } from './pages/veilles/veilles.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, AboutComponent, FooterComponent, ProjectsComponent, HomeComponent, StagetheaComponent],
+  declarations: [AppComponent, HeaderComponent, AboutComponent, FooterComponent, ProjectsComponent, HomeComponent, StagetheaComponent, VeillesComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
